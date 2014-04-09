@@ -10,6 +10,12 @@
     "describe": false,
     "beforeEach": false,
     "it": false,
-    "expect": false
+    "expect": false,
+    
+    "require": false,
+    "__dirname": false,
+    "env": false,
+    "process": false,
+    "console": false
   }
 }
