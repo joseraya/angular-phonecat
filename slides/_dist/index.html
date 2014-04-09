@@ -1,0 +1,15 @@
+<html ng-app="calendar">
+
+<head>
+<link rel="stylesheet" href="vendor.css" />
+</head>
+
+<body>
+  <div ng-controller="MyController" ng-click="hola()">
+      Today is {{today | date:'mediumDate'}}
+  </div>
+  <script src="vendor.js"></script>
+  <script src="application.js"></script>
+</body>
+
+</html>
