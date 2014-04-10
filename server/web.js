@@ -6,10 +6,10 @@ express = require('express'),
 
 var app = express();
 
+/*
 app.get('/app/*', function (req, res) {
 
     if (req.query._escaped_fragment_) {
-        console.log(req.query._escaped_fragment_);
         res.send("Your phones should be here");
         res.end();
     } else {
@@ -18,6 +18,16 @@ app.get('/app/*', function (req, res) {
         });
     }
 });
+
+app.get('/', function (req, res) {
+    res.sendfile('README.md', {
+        root: __dirname + '/../'
+    });
+});
+
+*/
+
+app.use(require('prerender-node'));
 
 app.use(express.static(__dirname + '/..'));
 
