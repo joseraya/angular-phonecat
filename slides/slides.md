@@ -204,5 +204,14 @@ and now google sees this:
 <img src="what_google_sees_with_prerender.png" />
 <img src="what_google_sees_with_prerender_2.png" />
 ---
+## What's next?
+
+Now, regular SEO applies
+
+    http://www.feedthebot.com/tools
+    https://www.google.com/webmasters/tools/home?hl=en
+    http://www.browseo.net/how-google-sees-your-website
+    
+---
 #Thank you!
 
